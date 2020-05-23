@@ -101,7 +101,7 @@ section {
   margin-left: auto;
 }
 .account {
-  align-content: right;
+  text-align: right;
   padding: 15px;
   color: #364147;
   font-size: 18px;
