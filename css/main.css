@@ -91,3 +91,29 @@ section {
   margin-top: 10px;
   padding-left: 0;
 }
+.nav-list li a {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+.profile {
+  margin-left: auto;
+}
+.account {
+  align-content: right;
+  padding: 15px;
+  color: #364147;
+  font-size: 18px;
+}
+.account a {
+  font-size: 14px;
+}
+.profile-pic {
+  width: 60px;
+  height: 60px;
+}
+.profile-pic img {
+  border-radius: 100px;
+  max-width: 100%;
+}
