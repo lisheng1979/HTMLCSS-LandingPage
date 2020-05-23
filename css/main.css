@@ -1,11 +1,11 @@
 .container {
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   max-width: 1170px;
 }
-
 section {
   display: flex;
 }
+
 .flex {
   display: flex;
 }
@@ -24,12 +24,13 @@ section {
 .space-between {
   justify-content: space-between;
 }
+
 .btn {
   cursor: pointer;
   border: 0;
-  padding: 6px 12px 6px 12px;
-  border-radius: 3px;
+  padding: 6px 12px;
   line-height: 1.4;
+  border-radius: 3px;
 }
 .btn-default {
   color: #ffffff;
@@ -39,13 +40,15 @@ section {
   color: #ffffff;
   background-color: #364147;
 }
+
 .form-control {
   display: block;
   padding: 6px 12px;
-  border: 1px solid #a0a0a0;
-  color: #8598a2;
   line-height: 1.4;
+  color: #8598a2;
+  border: 1px solid #a0a0a0;
 }
+
 .text-light {
   font-size: 30px;
   color: #a0a0a0;
@@ -58,10 +61,11 @@ section {
   font-size: 16px;
   color: #364147;
 }
+
 .header-nav {
-  bottom: 1px;
-  color: #a0a0a0;
+  border-bottom: 1px solid #a0a0a0;
 }
+
 .brand {
   width: 170px;
   height: 85px;
@@ -72,6 +76,7 @@ section {
   max-width: 100%;
   height: auto;
 }
+
 .search-box {
   width: 330px;
   height: 30px;
@@ -79,17 +84,18 @@ section {
   border: 1px solid #a0a0a0;
 }
 .search-button {
-  color: #ffffff;
   background-color: #a0a0a0;
   width: 100px;
   height: 30px;
+  color: #ffffff;
   border: 0;
   padding: 0;
 }
+
 .nav-list {
   width: 575px;
-  margin-top: 10px;
   padding-left: 0;
+  margin-top: 10px;
 }
 .nav-list li a {
   font-size: 16px;
@@ -97,18 +103,20 @@ section {
   font-weight: 700;
   letter-spacing: 0.2px;
 }
+
 .profile {
   margin-left: auto;
 }
 .account {
   text-align: right;
   padding: 15px;
-  color: #364147;
   font-size: 18px;
+  color: #364147;
 }
 .account a {
   font-size: 14px;
 }
+
 .profile-pic {
   width: 60px;
   height: 60px;
@@ -144,6 +152,7 @@ section {
   font-size: 21px;
   margin: 0 0 10px;
 }
+
 .banner {
   margin: 55px 15px;
   width: 100%;
@@ -166,6 +175,7 @@ section {
   font-weight: 400;
   margin-top: 5px;
 }
+
 .category {
   flex: 0 0 25%;
   padding: 0 15px;
@@ -173,6 +183,7 @@ section {
 .category img {
   width: 100%;
 }
+
 .category-text {
   color: #364147;
   padding: 30px 0;
@@ -184,6 +195,7 @@ section {
   font-weight: 200;
   color: #faa541;
 }
+
 .category-text h3 {
   font-size: 30px;
   font-weight: 700;
